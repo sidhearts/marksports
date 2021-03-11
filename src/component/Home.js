@@ -52,7 +52,7 @@ function Home() {
           }
         >
           <Navbar.Brand href="#home" className="brand ml-md-5">
-            <img src="/images/logo.png" style={{ width: "25vh" }} />
+            <img src="/images/logo.png" style={{ width: "20vh" }} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
