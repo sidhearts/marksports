@@ -73,7 +73,7 @@ function Home() {
       </div>
 
       <div className="content pb-5">
-        <Parallax bgImage="/images/football.jpg" strength={500}>
+        <Parallax bgImage="/images/4W64DwOO4f (1).jpg" strength={500}>
           <div style={{ height: 700 }}>
             <div style={inlineStyle}>
               <h1>
