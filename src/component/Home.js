@@ -60,11 +60,13 @@ function Home() {
               <Nav.Link href="#talent" className="links">
                 TALENT
               </Nav.Link>
-              <Nav.Link href="#link" className="links">
+              <Nav.Link href="#brands" className="links">
                 BRANDS
               </Nav.Link>
-              <Nav.Link className="links">CAREER</Nav.Link>
-              <Nav.Link href="#link" className="links">
+              <Nav.Link href="#career" className="links">
+                CAREER
+              </Nav.Link>
+              <Nav.Link href="#" className="links">
                 ABOUT
               </Nav.Link>
             </Nav>
@@ -73,7 +75,7 @@ function Home() {
       </div>
 
       <div className="content pb-5">
-        <Parallax bgImage="/images/4W64DwOO4f (1).jpg" strength={500}>
+        <Parallax bgImage="/images/bg.jpg" strength={500}>
           <div style={{ height: 700 }}>
             <div style={inlineStyle}>
               <h1>
@@ -108,11 +110,15 @@ function Home() {
                 sunt in culpa qui officia deserunt mollit anim id est laborum.
               </Col>
               <Col xs={12} md={6}>
-                <img className="img-fluid drop" src="/images/sports.png" />
+                <img
+                  data-aos="zoom-in"
+                  className="img-fluid drop"
+                  src="/images/sports.png"
+                />
               </Col>
             </Row>
           </Container>
-          <div className="carousel-box mt-5">
+          <div data-aos="fade-up" className="carousel-box mt-5">
             <Carousel className="p-3 p-md-5">
               <Carousel.Item>
                 <img
@@ -154,6 +160,7 @@ function Home() {
             <Row>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-1.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -161,6 +168,7 @@ function Home() {
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-2.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -168,6 +176,7 @@ function Home() {
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-3.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -175,6 +184,7 @@ function Home() {
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-4.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -184,6 +194,7 @@ function Home() {
             <Row>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-5.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -191,6 +202,7 @@ function Home() {
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-6.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -198,6 +210,7 @@ function Home() {
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-7.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -205,6 +218,7 @@ function Home() {
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-8.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -214,6 +228,7 @@ function Home() {
             <Row>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-9.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -221,6 +236,7 @@ function Home() {
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-10.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -228,6 +244,7 @@ function Home() {
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-11.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -235,6 +252,7 @@ function Home() {
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-12.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -244,6 +262,7 @@ function Home() {
             <Row>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-13.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -251,6 +270,7 @@ function Home() {
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-14.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -258,6 +278,7 @@ function Home() {
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-15.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
@@ -265,6 +286,7 @@ function Home() {
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
                 <img
+                  data-aos="zoom-in"
                   src="/images/logo-16.png"
                   alt="brand"
                   className="rounded img-fluid brand-logo"
