@@ -9,8 +9,8 @@ export default function Talent() {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className="content py-5">
-      <div className="container">
+    <div className="content pb-5">
+      <div className="container" id="main">
         <h1 id="talent" className="texts pt-3">
           Talent
         </h1>

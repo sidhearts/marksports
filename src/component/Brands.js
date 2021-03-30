@@ -9,8 +9,8 @@ export default function Brands() {
     Aos.init({ duration: 1000 });
   }, []);
   return (
-    <div className="content">
-      <div className="container">
+    <div className="content pb-5">
+      <div className="container" id="main">
         <h1 id="brands" className="texts pt-5">
           Brands
         </h1>
