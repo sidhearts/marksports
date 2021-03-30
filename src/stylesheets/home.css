@@ -61,6 +61,8 @@ a {
   background: #f7f8f2;
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  color: #353839;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .brand-logo {
