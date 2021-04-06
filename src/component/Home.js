@@ -5,7 +5,7 @@ import "../stylesheets/home.css";
 function Home() {
   return (
     <div className="content py-5" id="main">
-      <div id="about" style={{background: "white"}}>
+      <div id="about" className="about-box" style={{background: "white"}}>
         <h1 className="pt-2">
           <u>ABOUT US</u>
         </h1>
