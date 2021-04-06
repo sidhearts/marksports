@@ -69,8 +69,8 @@ export default function Header() {
               </strong>
               <br />
               <br />
-              <div class="arrow bounce">
-                <a class="fa fa-arrow-down fa-2x" href="#main">
+              <div className="arrow bounce">
+                <a href="#main">
                   <img src="/images/arrow.png" />
                 </a>
               </div>

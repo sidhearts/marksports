@@ -1,15 +1,21 @@
 import React, { useEffect } from "react";
-import { Carousel, Container, Row, Col } from "react-bootstrap";
+import {
+  MDBContainer,
+  MDBRow,
+  MDBCol,
+  MDBBtn,
+  MDBIcon,
+  MDBInput,
+} from "mdbreact";
 import "../stylesheets/home.css";
 
 function Home() {
   return (
     <div className="content py-5" id="main">
-      <div id="about" className="about-box" style={{background: "white"}}>
+      <div id="about" className="about-box" style={{ background: "white" }}>
         <h1 className="pt-2">
           <u>ABOUT US</u>
         </h1>
-        {/* <hr className="head-hr" width="200px" /> */}
         <div className="container-fluid">
           <div className="row p-5">
             <div className="col-12 col-md-4 text-left">
@@ -78,16 +84,147 @@ function Home() {
         </div>
 
         <div id="career" className="carousel-box my-5">
-          <h1 className="pt-2">Career</h1>
-          <hr className="head-hr" width="200px" />
-          <div className="text-center p-3">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
+          {/* <h1 className="pt-2">
+            <u>Career</u>
+          </h1> */}
+          <div className="p-3 text-left">
+            <MDBContainer>
+              <MDBRow>
+                <MDBCol md="6">
+                  <form action="https://formspree.io/f/myylywrn" method="POST">
+                    <p className="h5 text-center my-4">
+                      <b>
+                        <u>CAREER</u>
+                      </b>
+                    </p>
+                    <div className="grey-text">
+                      <MDBInput
+                        label="Your name"
+                        name="name"
+                        icon="user"
+                        group
+                        type="text"
+                        validate
+                        error="wrong"
+                        success="right"
+                      />
+                      <MDBInput
+                        label="Location (City)"
+                        name="location"
+                        icon="map-marker-alt"
+                        group
+                        type="text"
+                        validate
+                        error="wrong"
+                        success="right"
+                      />
+                      <MDBInput
+                        label="Your email"
+                        name="email"
+                        icon="envelope"
+                        group
+                        type="email"
+                        validate
+                        error="wrong"
+                        success="right"
+                      />
+                      <MDBInput
+                        label="Phone Number"
+                        name="phone"
+                        icon="mobile-alt"
+                        group
+                        type="text"
+                        validate
+                        error="wrong"
+                        success="right"
+                      />
+                      <MDBInput
+                        label="Position Applied For"
+                        name="position"
+                        icon="plus-square"
+                        group
+                        type="text"
+                        validate
+                        error="wrong"
+                        success="right"
+                      />
+                      <MDBInput
+                        type="textarea"
+                        name="message"
+                        rows="2"
+                        label="Your message"
+                        icon="pencil-alt"
+                      />
+                    </div>
+                    <div className="text-center">
+                      <MDBBtn type="submit" outline color="secondary">
+                        Send
+                        <MDBIcon far icon="paper-plane" className="ml-1" />
+                      </MDBBtn>
+                    </div>
+                  </form>
+                </MDBCol>
+
+                <MDBCol md="6">
+                  <form action="https://formspree.io/f/xoqyqdgr" method="POST">
+                    <p className="h5 text-center my-4">
+                      <b>
+                        <u>SUBSCRIBE</u>
+                      </b>
+                      <br />
+                      <br />
+                      <small>
+                        Signup for our weekly newsletter and discover what's
+                        brewing in the world of Sports and Corporate Industry.
+                      </small>
+                    </p>
+                    <div className="grey-text">
+                      <MDBInput
+                        label="Your name"
+                        icon="user"
+                        name="name"
+                        group
+                        type="text"
+                        validate
+                        error="wrong"
+                        success="right"
+                      />
+                      <MDBInput
+                        label="Your email"
+                        icon="envelope"
+                        name="email"
+                        group
+                        type="email"
+                        validate
+                        error="wrong"
+                        success="right"
+                      />
+                      <MDBInput
+                        label="Phone Number"
+                        icon="phone-alt"
+                        name="phone number"
+                        group
+                        type="text"
+                        validate
+                        error="wrong"
+                        success="right"
+                      />
+                    </div>
+                    <div className="text-center">
+                      <MDBBtn outline type="submit" color="info">
+                        Subscribe
+                        <MDBIcon
+                          far
+                          icon="play-circle"
+                          size="lg"
+                          className="ml-1"
+                        />
+                      </MDBBtn>
+                    </div>
+                  </form>
+                </MDBCol>
+              </MDBRow>
+            </MDBContainer>
           </div>
         </div>
       </div>
