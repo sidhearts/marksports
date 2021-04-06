@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Col, Row} from 'react-bootstrap';
+import { Container, Col, Row, Nav} from 'react-bootstrap';
 import "../stylesheets/home.css";
 
 export default function Footer() {
@@ -10,8 +10,8 @@ export default function Footer() {
             <nav clasName="footer-nav">
             <ul>
               <li>
-                 <NavItem>
-              <NavLink
+                 <Nav.Item>
+              <Nav.Link
                 data-placement="bottom"
                 href="https://twitter.com"
                 target="_blank"
@@ -19,12 +19,12 @@ export default function Footer() {
               >
                 <i className="fa fa-twitter" />
                 <p className="d-lg-none">Twitter</p>
-              </NavLink>
-            </NavItem>
+              </Nav.Link>
+            </Nav.Item>
               </li>
               <li>
-            <NavItem>
-              <NavLink
+            <Nav.Item>
+              <Nav.Link
                 data-placement="bottom"
                 href="https://www.facebook.com/"
                 target="_blank"
@@ -32,12 +32,12 @@ export default function Footer() {
               >
                 <i className="fa fa-facebook-square" />
                 <p className="d-lg-none">Facebook</p>
-              </NavLink>
-            </NavItem>
+              </Nav.Link>
+            </Nav.Item>
               </li>
               <li>
-               <NavItem>
-              <NavLink
+               <Nav.Item>
+              <Nav.Link
                 data-placement="bottom"
                 href="https://www.instagram.com/"
                 target="_blank"
@@ -45,8 +45,8 @@ export default function Footer() {
               >
                 <i className="fa fa-instagram" />
                 <p className="d-lg-none">Instagram</p>
-              </NavLink>
-            </NavItem>
+              </Nav.Link>
+            </Nav.Item>
               </li>
             </ul>
             </nav>
