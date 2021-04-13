@@ -1,8 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
+@media (min-width: 800px) and (max-width: 850px) {
+  .landing-navbar:not(.top-nav-collapse) {
+    background: #353839 !important;
+  }
+}
 .landing-navbar {
-  background: transparent !important ;
+  background-color: rgba(0, 0, 0, 0.2);
   font-size: 20px;
+}
+.top-nav-collapse {
+  background-color: #353839;
+}
+@media only screen and (max-width: 768px) {
+  .landing-navbar  {
+    background-color: #353839;
+  }
 }
 
 .landing-navbar.active {
@@ -62,11 +75,11 @@ a {
   border-radius: 15px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
   color: #353839;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .brand-logo {
-  filter: drop-shadow(0 0 0.75rem #c9e9f6);
+  filter: drop-shadow(0 0 0.5rem rgba(0, 0, 0, 0.5));
 }
 
 .footer {
@@ -114,5 +127,7 @@ a {
 
 .about-box {
   color: #353839;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+
+

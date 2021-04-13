@@ -12,9 +12,8 @@ export default function Brands() {
     <div className="content pb-5">
       <div className="container" id="main">
         <h1 id="brands" className="texts pt-5">
-          Brands
+          <u><b>Brands</b></u>
         </h1>
-        <hr className="head-hr" width="200px" />
         <div className="text-center texts">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
@@ -24,144 +23,152 @@ export default function Brands() {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </div>
-        <Container className="pt-4">
-          <Row>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-1.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-2.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-3.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-4.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-5.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-6.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-7.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-8.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-9.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-10.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-11.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-12.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-          </Row>
-          <Row>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-13.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-14.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-15.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-            <Col xs={6} md={3} className="p-2 p-md-3">
-              <img
-                data-aos="zoom-in"
-                src="/images/logo-16.png"
-                alt="brand"
-                className="rounded img-fluid brand-logo"
-              />
-            </Col>
-          </Row>
-        </Container>
+      </div>
+      <div
+        id="about"
+        className="about-box my-5"
+        style={{ background: "white" }}
+      >
+        <div className="container-fluid">
+          <Container>
+            <Row>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-1.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-2.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-3.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-4.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-5.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-6.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-7.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-8.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-9.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-10.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-11.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-12.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+            </Row>
+            <Row>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-13.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-14.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-15.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-16.png"
+                  alt="brand"
+                  className="rounded img-fluid brand-logo"
+                />
+              </Col>
+            </Row>
+          </Container>
+        </div>
       </div>
     </div>
   );
