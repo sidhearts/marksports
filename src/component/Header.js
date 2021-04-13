@@ -35,7 +35,7 @@ export default function Header() {
             navbar ? "landing-navbar active mb-5" : "landing-navbar mb-5"
           }
         >
-          <Navbar.Brand href="#home" className="brand ml-md-5">
+          <Navbar.Brand href="/home" className="brand ml-md-5">
             <img src="/images/logo.png" style={{ width: "25vh" }} />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -44,10 +44,10 @@ export default function Header() {
               <Nav.Link href="/home" className="links">
                 <b>HOME</b>
               </Nav.Link>
-              <Nav.Link href="/talent" className="links">
+              <Nav.Link href="/talent#main" className="links">
                 <b>TALENT</b>
               </Nav.Link>
-              <Nav.Link href="/brands" className="links">
+              <Nav.Link href="/brands#main" className="links">
                 <b>BRANDS</b>
               </Nav.Link>
               <Nav.Link href="/home#career" className="links">
