@@ -37,7 +37,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-1.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
@@ -45,7 +45,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-2.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
@@ -53,7 +53,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-3.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
@@ -61,7 +61,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-4.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
             </Row>
@@ -71,7 +71,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-5.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
@@ -79,7 +79,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-6.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
@@ -87,7 +87,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-7.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
@@ -95,7 +95,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-8.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
             </Row>
@@ -105,7 +105,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-9.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
@@ -113,7 +113,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-10.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
@@ -121,7 +121,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-11.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
@@ -129,7 +129,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-12.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
             </Row>
@@ -139,7 +139,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-13.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
@@ -147,7 +147,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-14.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
@@ -155,7 +155,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-15.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
               <Col xs={6} md={3} className="p-2 p-md-3">
@@ -163,7 +163,7 @@ export default function Brands() {
                   data-aos="zoom-in"
                   src="/images/logo-16.png"
                   alt="brand"
-                  className="rounded img-fluid brand-logo"
+                  className="rounded img-fluid"
                 />
               </Col>
             </Row>

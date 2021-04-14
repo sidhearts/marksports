@@ -1,63 +1,94 @@
 import React from "react";
-import { Container, Col, Row, Nav} from 'react-bootstrap';
 import "../stylesheets/home.css";
 
 export default function Footer() {
   return (
-      <div className="footer">
-        <Container>
-          <Row>
-            <nav clasName="footer-nav">
-            <ul>
-              <li>
-                 <Nav.Item>
-              <Nav.Link
-                data-placement="bottom"
-                href="https://twitter.com"
-                target="_blank"
-                title="Follow us on Twitter"
+    <div>
+      <footer className="bg-dark text-center text-white">
+        <div className="container">
+          <section>
+            <a
+              className="btn btn-floating m-1"
+              style={{ backgroundColor: "#3b5998" }}
+              href="https://m.facebook.com/pages/category/Product-Service/markSportsonline-111165667423881/"
+              target="_blank"
+              role="button"
+            >
+              <i className="fab fa-facebook-f"></i>
+            </a>
+
+            <a
+              className="btn btn-floating m-1"
+              style={{ backgroundColor: "#55acee" }}
+              href="https://twitter.com/INDmarkSports?s=09"
+              target="_blank"
+              role="button"
+            >
+              <i className="fab fa-twitter"></i>
+            </a>
+
+            <a
+              className="btn btn-floating m-1"
+              style={{ backgroundColor: "#dd4b39" }}
+              href="#!"
+              target="_blank"
+              role="button"
+            >
+              <i className="fab fa-google"></i>
+            </a>
+
+            <a
+              className="btn btn-floating m-1"
+              style={{ backgroundColor: "#ac2bac" }}
+              href="https://www.instagram.com/marksports.online/"
+              target="_blank"
+              role="button"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+
+            <a
+              className="btn btn-floating m-1"
+              style={{ backgroundColor: "#0082ca" }}
+              href="https://www.linkedin.com/company/marksports-in"
+              target="_blank"
+              role="button"
+            >
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+          </section>
+          <div className="row">
+            <div className="col-12 col-md-4 p-2">
+              Interested in working with us?
+              <a className="text-white" href="mailto:info.marksports@gmail.com">
+                info.marksports@gmail.com
+              </a>
+            </div>
+            <div className="col-12 col-md-4 p-2">
+              CAREER<br /> 
+              <a
+                className="text-white"
+                href="mailto:career.marksports@gmail.com"
               >
-                <i className="fa fa-twitter" />
-                <p className="d-lg-none">Twitter</p>
-              </Nav.Link>
-            </Nav.Item>
-              </li>
-              <li>
-            <Nav.Item>
-              <Nav.Link
-                data-placement="bottom"
-                href="https://www.facebook.com/"
-                target="_blank"
-                title="Like us on Facebook"
-              >
-                <i className="fa fa-facebook-square" />
-                <p className="d-lg-none">Facebook</p>
-              </Nav.Link>
-            </Nav.Item>
-              </li>
-              <li>
-               <Nav.Item>
-              <Nav.Link
-                data-placement="bottom"
-                href="https://www.instagram.com/"
-                target="_blank"
-                title="Follow us on Instagram"
-              >
-                <i className="fa fa-instagram" />
-                <p className="d-lg-none">Instagram</p>
-              </Nav.Link>
-            </Nav.Item>
-              </li>
-            </ul>
-            </nav>
-            <Col xs={6} className="texts text-left p-3">
-              <small>&copy; 2021 all rights reserved</small>
-            </Col>
-            <Col xs={5} className="texts p-3">
-              <span>Contact us:</span>
-            </Col>
-          </Row>
-        </Container>
-      </div>
+                career.marksports@gmail.com
+              </a>
+            </div>
+            <div className="col-12 col-md-4 p-2">
+              Address : J-1203 AVJ Heights, Zeta-1, Greater Noida - 201310
+            </div>
+          </div>
+        </div>
+
+        <div
+          className="text-center p-3"
+          style={{ backgroundColor: "rgba(0,0, 0, 0.2)" }}
+        >
+          © 2021 Copyright:
+          <a className="text-white" href="http://marksports.herokuapp.com/">
+            markSPORTS
+          </a>
+        </div>
+      </footer>
+    </div>
   );
 }

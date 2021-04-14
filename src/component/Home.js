@@ -91,7 +91,7 @@ function Home() {
             <MDBContainer>
               <MDBRow>
                 <MDBCol md="6">
-                  <form action="https://formspree.io/f/myylywrn" method="POST">
+                  <form action="https://formspree.io/f/meqvqynj" method="POST">
                     <p className="h5 text-center my-4">
                       <b>
                         <u>CAREER</u>
@@ -166,7 +166,7 @@ function Home() {
                 </MDBCol>
 
                 <MDBCol md="6">
-                  <form action="https://formspree.io/f/xoqyqdgr" method="POST">
+                  <form action="https://formspree.io/f/mzbybnyn" method="POST">
                     <p className="h5 text-center my-4">
                       <b>
                         <u>SUBSCRIBE</u>
