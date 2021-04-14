@@ -6,7 +6,7 @@ export default function Footer() {
     <div>
       <footer className="bg-dark text-center text-white">
         <div className="container">
-          <section>
+          <section className="p-2">
             <a
               className="btn btn-floating m-1"
               style={{ backgroundColor: "#3b5998" }}
@@ -58,13 +58,13 @@ export default function Footer() {
             </a>
           </section>
           <div className="row">
-            <div className="col-12 col-md-4 p-2">
+            <div className="col-12 col-md-4 p-3">
               Interested in working with us?
               <a className="text-white" href="mailto:info.marksports@gmail.com">
                 info.marksports@gmail.com
               </a>
             </div>
-            <div className="col-12 col-md-4 p-2">
+            <div className="col-12 col-md-4 p-3">
               CAREER<br /> 
               <a
                 className="text-white"
@@ -73,7 +73,7 @@ export default function Footer() {
                 career.marksports@gmail.com
               </a>
             </div>
-            <div className="col-12 col-md-4 p-2">
+            <div className="col-12 col-md-4 p-3">
               Address : J-1203 AVJ Heights, Zeta-1, Greater Noida - 201310
             </div>
           </div>
