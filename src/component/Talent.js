@@ -26,8 +26,8 @@ export default function Talent() {
               Need Brand elevation with a star face?<br />
               Companies often
               aren’t able to get sportsperson for as their brand face, Don’t
-              worry markSports is here for you. 
-              <h4>So, how do we help you?</h4> We bring
+              worry markSports is here for you.
+              <h4 className="py-3">So, how do we help you?</h4> We bring
               together the players who need recognition and the companies who
               need sportsperson for advertising their brands which gives the
               player the recognition they deserve and the companies increase

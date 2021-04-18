@@ -65,7 +65,7 @@ export default function Header() {
           <div style={inlineStyle}>
             <h1>
               <strong>
-                We make it easy for brands to partner with athletes.
+                We make it easy for brands to partner with athletes
               </strong>
               <br />
               <br />
