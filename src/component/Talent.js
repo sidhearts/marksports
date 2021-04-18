@@ -12,12 +12,11 @@ export default function Talent() {
     <div className="content pb-5">
       <div className="container" id="main">
         <h1 id="talent" className="texts pt-3">
-          Talent
+          <u>Talent</u>
         </h1>
-        <hr className="head-hr" width="200px" />
         <Container className="pt-5">
           <Row>
-            <Col xs={12} md={6} className="texts">
+            <Col xs={12} md={6} className="texts talent-box p-3">
               <h3>How are we beneficial to you?</h3><br />
               Seeking recognition ?<br />
               Being a
@@ -48,22 +47,36 @@ export default function Talent() {
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="/images/virat.jpeg"
+                src="/images/anuj-rawat.png"
                 alt="First slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="/images/virat.jpeg"
+                src="/images/harsh-tyagi.png"
                 alt="Second slide"
               />
             </Carousel.Item>
             <Carousel.Item>
               <img
                 className="d-block w-100"
-                src="/images/virat.jpeg"
+                src="/images/himmat-singh.png"
                 alt="Third slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="/images/lalit-yadav.png"
+                alt="Fourth slide"
+              />
+            </Carousel.Item>
+            <Carousel.Item>
+              <img
+                className="d-block w-100"
+                src="/images/manjot-kalra.png"
+                alt="Fifth slide"
               />
             </Carousel.Item>
           </Carousel>

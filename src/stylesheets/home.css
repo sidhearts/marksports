@@ -127,4 +127,18 @@ a {
   font-family: "Montserrat", sans-serif;
 }
 
+.talent-box {
+  background-color: #00000086;
+  border-radius: 15px;
+  text-align: left;
+}
+
+.talent-box h3 {
+  color: yellow;
+}
+
+.talent-box h4 {
+  color: rgb(200, 255, 0);
+}
+
 

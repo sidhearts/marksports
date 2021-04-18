@@ -12,16 +12,17 @@ export default function Brands() {
     <div className="content pb-5">
       <div className="container" id="main">
         <h1 id="brands" className="texts pt-5">
-          <u><b>Brands</b></u>
+          <u>
+            <b>Brands</b>
+          </u>
         </h1>
         <div className="text-center texts">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat. Duis aute irure dolor in
-          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-          culpa qui officia deserunt mollit anim id est laborum.
+          We are a lot of enthusiastic trailblazers who are driven by probably
+          the most trustworthy names in the business. So when you tap onto the
+          advanced universe with us, we guarantee you are heard without becoming
+          mixed up in the reverberation of patterns. You have a brand? Let us
+          tell your story and leave it to us for a seamless execution right from
+          the start.
         </div>
       </div>
       <div
