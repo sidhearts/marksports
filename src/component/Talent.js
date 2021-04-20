@@ -17,17 +17,18 @@ export default function Talent() {
         <Container className="pt-5">
           <Row>
             <Col xs={12} md={6} className="texts talent-box p-3">
-              <h3>How are we beneficial to you?</h3><br />
+              <h3>How are we beneficial to you?</h3>
+              <br />
               Seeking recognition ?<br />
-              Being a
-              sports person isn’t easy, maintaining your best self on-field and
-              off-field gets a little difficult, Don’t worry markSports got your
-              back.<br />
-              Need Brand elevation with a star face?<br />
-              Companies often
-              aren’t able to get sportsperson for as their brand face, Don’t
-              worry markSports is here for you.
-              <h4 className="py-3">So, how do we help you?</h4> We bring
+              Being a sports person isn’t easy, maintaining your best self
+              on-field and off-field gets a little difficult, Don’t worry
+              markSports got your back.
+              <br />
+              Need Brand elevation with a star face?
+              <br />
+              Companies often aren’t able to get sportsperson for as their brand
+              face, Don’t worry markSports is here for you.
+              <h4 className="py-3t">So, how do we help you?</h4> We bring
               together the players who need recognition and the companies who
               need sportsperson for advertising their brands which gives the
               player the recognition they deserve and the companies increase
@@ -42,6 +43,49 @@ export default function Talent() {
             </Col>
           </Row>
         </Container>
+      </div>
+      <div className="my-4" style={{ background: "black" }}>
+        <div className="container texts py-5">
+          <div className="">
+            <h1>Our Provisions</h1>
+            <div className="service-box p-3 d-block d-md-none">
+              <h4>Services for Sportsmen</h4>
+              <ol>
+                <li>Endorsements/Sponsorship and Consultancy</li>
+                <li>Brand Ambassador/Commercials</li>
+                <li>Merchandise and Equipment Procurement</li>
+                <li>Image Building / Branding</li>
+                <li>Social Media Management</li>
+                <li>PR Management</li>
+              </ol>
+            </div>
+            <div className="d-none d-md-block">
+              <h3 className="py-3">Services for Sportsmen</h3>
+              <div className="row ">
+                <div className="col-6">
+                  <div className="service-box mt-3 mx-5 p-4">
+                    <ul>
+                      <li>Endorsements/Sponsorship and Consultancy</li>
+                      <li>Brand Ambassador/Commercials</li>
+                      <li>Merchandise and Equipment Procurement</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="col-6">
+                  <div className="service-box mt-3 mx-5 p-4">
+                    <ul>
+                      <li>Image Building / Branding</li>
+                      <li>Social Media Management</li>
+                      <li>PR Management</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container">
         <div data-aos="fade-up" className="carousel-box mt-5">
           <Carousel className="p-2 p-md-3">
             <Carousel.Item>

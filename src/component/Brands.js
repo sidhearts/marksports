@@ -25,6 +25,47 @@ export default function Brands() {
           the start.
         </div>
       </div>
+      <div className="my-4" style={{ background: "black" }}>
+        <div className="container texts py-5">
+          <div className="">
+            <h1>Our Provisions</h1>
+            <div className="service-box p-3 d-block d-md-none">
+              <h4>Services for Sportsmen</h4>
+              <ol>
+                <li>Marketing/Ad Campaing</li>
+                <li>Product Launch</li>
+                <li>Commercial and Avertisements Shoot</li>
+                <li>Social Media Management</li>
+                <li>Product Video Production</li>
+                <li>Product and Service Branding</li>
+              </ol>
+            </div>
+            <div className="d-none d-md-block">
+              <h3 className="py-3">Services for Company</h3>
+              <div className="row ">
+                <div className="col-6">
+                  <div className="service-box mt-3 mx-5 p-4">
+                    <ul>
+                      <li>Marketing/Ad Campaing</li>
+                      <li>Product Launch</li>
+                      <li>Commercial and Avertisements Shoot</li>
+                    </ul>
+                  </div>
+                </div>
+                <div className="col-6">
+                  <div className="service-box mt-3 mx-5 p-4">
+                    <ul>
+                      <li>Social Media Management</li>
+                      <li>Product Video Production</li>
+                      <li>Product and Service Branding</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div
         id="about"
         className="about-box my-5"

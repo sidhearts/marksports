@@ -141,4 +141,10 @@ a {
   color: rgb(200, 255, 0);
 }
 
+.service-box {
+  background-color: #0079ba;
+  border-radius: 15px;
+  text-align: left;
+}
+
 
