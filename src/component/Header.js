@@ -41,8 +41,11 @@ export default function Header() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ml-auto mr-md-5">
-              <Nav.Link href="/home" className="links">
+            <Nav.Link href="/home" className="links">
                 <b>HOME</b>
+              </Nav.Link>
+              <Nav.Link href="https://themarksports.online/" target="_blank" className="links">
+                <b>NEWS</b>
               </Nav.Link>
               <Nav.Link href="/talent#main" className="links">
                 <b>TALENT</b>
