@@ -74,7 +74,7 @@ export default function Footer() {
               </a>
             </div>
             <div className="col-12 col-md-4 p-3">
-              Address : J-1203 AVJ Heights, Zeta-1, Greater Noida - 201310
+              Address : Dhandhania House, Gola Road, Koat Bazar, Sitamarhi, Bihar - 843302
             </div>
           </div>
         </div>
