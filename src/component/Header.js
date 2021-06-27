@@ -47,6 +47,9 @@ export default function Header() {
               <Nav.Link href="https://themarksports.online/" target="_blank" className="links">
                 <b>NEWS </b><sup className="badge badge-pill badge-danger pulse">&#9678;</sup>
               </Nav.Link>
+              <Nav.Link href="/service" className="links">
+                <b>SERVICES</b>
+              </Nav.Link>
               <Nav.Link href="/talent#main" className="links">
                 <b>TALENT</b>
               </Nav.Link>
