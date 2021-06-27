@@ -85,13 +85,15 @@ const Creative = () => (
             <section className="panel green pt-5 pt-md-0">
               <div className="row text-left">
                 <div className="col-12 col-md-4 d-md-flex align-items-end">
-                  <h3 className="p-5">
-                    Brand/Products/Office 360° and Spherical Photography
-                  </h3>
-                  <p className="texts p-2">
-                    Redefining digital marketing with the influencers that help
-                    your brand grow.
-                  </p>
+                  <div className="pb-md-5">
+                    <h3 className="p-5">
+                      Brand/Products/Office 360° and Spherical Photography
+                    </h3>
+                    <p className="texts p-2">
+                      Redefining digital marketing with the influencers that
+                      help your brand grow.
+                    </p>
+                  </div>
                 </div>
                 <div className="col-6 col-md-4 pr-0">
                   <div className="service-card d-lg-flex align-items-end">
