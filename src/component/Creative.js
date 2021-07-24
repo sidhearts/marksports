@@ -26,11 +26,11 @@ const SectionWipes2Styled = styled.div`
   }
 
   .panel.yellow {
-    background-color: #fabe33;
+    background-color: #ffc300;
   }
 
   .panel.turqoise {
-    background-color: #0079ba;
+    background-color: #ffc300;
   }
 
   .panel.white {
@@ -58,9 +58,7 @@ const Creative = () => (
               <div className="col-6 col-md-4 p-0">
                 <div className="service-card d-lg-flex align-items-end">
                   <div className="p-3 pb-md-5">
-                    <h3 className="texts">
-                      Social Media Handling and Management
-                    </h3>
+                    <h3 className="texts">Branding</h3>
                     <p className="texts service-links">
                       Redefining digital marketing with the influencers that
                       help your brand grow.
@@ -71,7 +69,9 @@ const Creative = () => (
               <div className="col-6 col-md-4 p-0">
                 <div className="service-card d-lg-flex align-items-end">
                   <div className="p-3 pb-md-5">
-                    <h3 className="texts">Brand Portfolio and Management</h3>
+                    <h3 className="texts">
+                      Graphic Designing and Video Editing/ Music Production
+                    </h3>
                     <p className="texts service-links">
                       Redefining digital marketing with the influencers that
                       help your brand grow.
@@ -86,9 +86,7 @@ const Creative = () => (
               <div className="row text-left">
                 <div className="col-12 col-md-4 d-md-flex align-items-end">
                   <div className="pb-md-5">
-                    <h3 className="p-5">
-                      Brand/Products/Office 360° and Spherical Photography
-                    </h3>
+                    <h3 className="p-5">Website Building</h3>
                     <p className="texts p-2">
                       Redefining digital marketing with the influencers that
                       help your brand grow.
@@ -98,9 +96,7 @@ const Creative = () => (
                 <div className="col-6 col-md-4 pr-0">
                   <div className="service-card d-lg-flex align-items-end">
                     <div className="p-3 pb-md-5">
-                      <h3 className="texts">
-                        Promotional/ Corporate Merchandise Solution
-                      </h3>
+                      <h3 className="texts">Social Media Management</h3>
                       <p className="texts service-links">
                         Redefining digital marketing with the influencers that
                         help your brand grow.
@@ -111,7 +107,7 @@ const Creative = () => (
                 <div className="col-6 col-md-4 p-0">
                   <div className="service-card d-lg-flex align-items-end">
                     <div className="p-3 pb-md-5">
-                      <h3 className="texts">Web Portfolio and Management</h3>
+                      <h3 className="texts">Content Writing </h3>
                       <p className="texts service-links">
                         Redefining digital marketing with the influencers that
                         help your brand grow.
@@ -253,15 +249,6 @@ const Creative = () => (
               </div>
             </section>
           </Tween>
-          <Tween from={{ y: "100%" }} to={{ y: "0%" }}>
-            <section className="panel turqoise">
-              <div className="row p-5">
-                <div className="col-12 col-md-4 pt-5">
-                  <h1 className="text-left texts">Our Work:</h1>
-                </div>
-              </div>
-            </section>
-          </Tween>
         </Timeline>
       </Scene>
     </Controller>
@@ -269,42 +256,3 @@ const Creative = () => (
 );
 
 export default Creative;
-// import React from "react";
-// import { Navbar, Nav } from "react-bootstrap";
-// import "../stylesheets/home.css";
-
-// export default function Creative() {
-//   return (
-//     <div>
-
-//       <div className="outer-wrapper">
-//         <div className="wrapper">
-//           <div className="slides one">
-//             <div className="row">
-//               <div className="col-4 mt-5">
-//                 <h1 className="texts text-left mt-5 pt-5 p-5">
-//                   Monk-E - As a 360° creative media organisation, we ensure that
-//                   your brand has it all to catch eyeballs
-//                 </h1>
-//               </div>
-//               <div className="col-4" style={{background: "yellow"}}></div>
-//               <div className="col-4" style={{background: "green"}}></div>
-//             </div>
-//           </div>
-//         </div>
-//       </div>
-//       <div style={{ height: "100vh" }}>
-//         <div className="row">
-//           <div className="col-4" style={{background: "orange"}}>
-//           Monk-E - As a 360° creative media organisation, we ensure that
-//                   your brand has it all to catch eyeballs
-//           </div>
-//           <div className="col-4" style={{background: "pink"}}></div>
-//           <div className="col-4" style={{background: "yellow"}}></div>
-//         </div>
-//       </div>
-//       <div style={{ height: "100vh" }}>2</div>
-//       <div style={{ height: "100vh" }}>3</div>
-//     </div>
-//   );
-// }

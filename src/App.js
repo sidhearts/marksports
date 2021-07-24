@@ -7,6 +7,7 @@ import Talent from "./component/Talent";
 import Brands from "./component/Brands";
 import Creative from "./component/Creative";
 import NavbarExt from "./component/Navbar";
+import Services from "./component/Services";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path="/service">
           <NavbarExt />
           <Creative />
+          <Services />
           <Footer />
         </Route>
       </BrowserRouter>

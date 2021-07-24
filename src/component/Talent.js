@@ -18,7 +18,6 @@ export default function Talent() {
           <Row>
             <Col xs={12} md={6} className="texts talent-box p-3">
               <h3>How are we beneficial to you?</h3>
-              <br />
               Seeking recognition ?<br />
               Being a sports person isn’t easy, maintaining your best self
               on-field and off-field gets a little difficult, Don’t worry
@@ -28,7 +27,7 @@ export default function Talent() {
               <br />
               Companies often aren’t able to get sportsperson for as their brand
               face, Don’t worry markSports is here for you.
-              <h4 className="py-3t">So, how do we help you?</h4> We bring
+              <h4 className="pt-3">So, how do we help you?</h4> We bring
               together the players who need recognition and the companies who
               need sportsperson for advertising their brands which gives the
               player the recognition they deserve and the companies increase
@@ -86,7 +85,7 @@ export default function Talent() {
         </div>
       </div>
       <div className="container">
-        <div data-aos="fade-up" className="carousel-box mt-5">
+        {/* <div data-aos="fade-up" className="carousel-box mt-5">
           <Carousel className="p-2 p-md-3">
             <Carousel.Item>
               <img
@@ -124,7 +123,7 @@ export default function Talent() {
               />
             </Carousel.Item>
           </Carousel>
-        </div>
+        </div> */}
       </div>
     </div>
   );
