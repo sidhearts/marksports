@@ -56,7 +56,7 @@ const Creative = () => (
                 </h3>
               </div>
               <div className="col-6 col-md-4 p-0">
-                <div className="service-card d-lg-flex align-items-end">
+                <div className="service-card service-brand d-lg-flex align-items-end">
                   <div className="p-3 pb-md-5">
                     <h3 className="texts">Branding</h3>
                     <p className="texts service-links">
@@ -67,7 +67,7 @@ const Creative = () => (
                 </div>
               </div>
               <div className="col-6 col-md-4 p-0">
-                <div className="service-card d-lg-flex align-items-end">
+                <div className="service-card service-video d-lg-flex align-items-end">
                   <div className="p-3 pb-md-5">
                     <h3 className="texts">
                       Graphic Designing and Video Editing/ Music Production
@@ -94,7 +94,7 @@ const Creative = () => (
                   </div>
                 </div>
                 <div className="col-6 col-md-4 pr-0">
-                  <div className="service-card d-lg-flex align-items-end">
+                  <div className="service-card service-social d-lg-flex align-items-end">
                     <div className="p-3 pb-md-5">
                       <h3 className="texts">Social Media Management</h3>
                       <p className="texts service-links">
@@ -105,7 +105,7 @@ const Creative = () => (
                   </div>
                 </div>
                 <div className="col-6 col-md-4 p-0">
-                  <div className="service-card d-lg-flex align-items-end">
+                  <div className="service-card service-content d-lg-flex align-items-end">
                     <div className="p-3 pb-md-5">
                       <h3 className="texts">Content Writing </h3>
                       <p className="texts service-links">
@@ -150,96 +150,6 @@ const Creative = () => (
                     <Col xs={3} className="p-2 p-md-3">
                       <img
                         src="/images/logo-4.png"
-                        alt="brand"
-                        className="rounded img-fluid"
-                      />
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col xs={3} className="p-2 p-md-3">
-                      <img
-                        src="/images/logo-5.png"
-                        alt="brand"
-                        className="rounded img-fluid"
-                      />
-                    </Col>
-                    <Col xs={3} className="p-2 p-md-3">
-                      <img
-                        src="/images/logo-6.png"
-                        alt="brand"
-                        className="rounded img-fluid"
-                      />
-                    </Col>
-                    <Col xs={3} className="p-2 p-md-3">
-                      <img
-                        src="/images/logo-7.png"
-                        alt="brand"
-                        className="rounded img-fluid"
-                      />
-                    </Col>
-                    <Col xs={3} className="p-2 p-md-3">
-                      <img
-                        src="/images/logo-8.png"
-                        alt="brand"
-                        className="rounded img-fluid"
-                      />
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col xs={3} className="p-2 p-md-3">
-                      <img
-                        src="/images/logo-9.png"
-                        alt="brand"
-                        className="rounded img-fluid"
-                      />
-                    </Col>
-                    <Col xs={3} className="p-2 p-md-3">
-                      <img
-                        src="/images/logo-10.png"
-                        alt="brand"
-                        className="rounded img-fluid"
-                      />
-                    </Col>
-                    <Col xs={3} className="p-2 p-md-3">
-                      <img
-                        src="/images/logo-11.png"
-                        alt="brand"
-                        className="rounded img-fluid"
-                      />
-                    </Col>
-                    <Col xs={3} className="p-2 p-md-3">
-                      <img
-                        src="/images/logo-12.png"
-                        alt="brand"
-                        className="rounded img-fluid"
-                      />
-                    </Col>
-                  </Row>
-                  <Row>
-                    <Col xs={3} className="p-2 p-md-3">
-                      <img
-                        src="/images/logo-13.png"
-                        alt="brand"
-                        className="rounded img-fluid"
-                      />
-                    </Col>
-                    <Col xs={3} className="p-2 p-md-3">
-                      <img
-                        src="/images/logo-14.png"
-                        alt="brand"
-                        className="rounded img-fluid"
-                      />
-                    </Col>
-                    <Col xs={3} className="p-2 p-md-3">
-                      <img
-                        src="/images/logo-15.png"
-                        alt="brand"
-                        className="rounded img-fluid"
-                      />
-                    </Col>
-                    <Col xs={3} className="p-2 p-md-3">
-                      <img
-                        src="/images/logo-16.png"
                         alt="brand"
                         className="rounded img-fluid"
                       />

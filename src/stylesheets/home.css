@@ -169,7 +169,34 @@ a {
 
 .service-card{
   height: 100vh;
-  background-image: url("https://i.pinimg.com/736x/28/bf/d5/28bfd5d944dafffc254804d310009760.jpg");
+}
+
+.service-brand{
+  background-image: url("Branding.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.service-social{
+  background-image: url("SM.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.service-content{
+  background-image: url("Content.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.service-video{
+  background-image: url("Video\ and\ design.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .service-links{
