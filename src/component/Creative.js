@@ -50,9 +50,10 @@ const Creative = () => (
           <section className="panel yellow pt-5 pt-md-0">
             <div className="row text-left">
               <div className="col-12 col-md-4 d-flex align-items-end">
-                <h3 className="p-5">
-                  Monk-E - As a 360° creative media organisation, we ensure that
-                  your brand has it all to catch eyeballs
+                <h3 className="p-2 p-md-5">
+                  markSPORTS : As an all-rounder media and production
+                  organization, we ensure that your brand gets all the
+                  nourishment to grow it big!
                 </h3>
               </div>
               <div className="col-6 col-md-4 p-0">
@@ -60,8 +61,7 @@ const Creative = () => (
                   <div className="p-3 pb-md-5">
                     <h3 className="texts">Branding</h3>
                     <p className="texts service-links">
-                      Redefining digital marketing with the influencers that
-                      help your brand grow.
+                      Creating and Maintaining A Unique Brand Identity For You.
                     </p>
                   </div>
                 </div>
@@ -73,8 +73,8 @@ const Creative = () => (
                       Graphic Designing and Video Editing/ Music Production
                     </h3>
                     <p className="texts service-links">
-                      Redefining digital marketing with the influencers that
-                      help your brand grow.
+                      Want Static/Dynamic Content For Your Brand? Just Leave It
+                      On Us OR Bless Your Client’s Ears With Good Music.
                     </p>
                   </div>
                 </div>
@@ -86,10 +86,10 @@ const Creative = () => (
               <div className="row text-left">
                 <div className="col-12 col-md-4 d-md-flex align-items-end">
                   <div className="pb-md-5">
-                    <h3 className="p-5">Website Building</h3>
-                    <p className="texts p-2">
-                      Redefining digital marketing with the influencers that
-                      help your brand grow.
+                    <h3 className="px-5 pt-5">Website Building</h3>
+                    <p className="texts px-5 pb-5">
+                      If Finding A Way To Make Online Presence, Then You Are At
+                      The Right Place.
                     </p>
                   </div>
                 </div>
@@ -98,8 +98,7 @@ const Creative = () => (
                     <div className="p-3 pb-md-5">
                       <h3 className="texts">Social Media Management</h3>
                       <p className="texts service-links">
-                        Redefining digital marketing with the influencers that
-                        help your brand grow.
+                        Find All The Content Types To Grow Your Business!
                       </p>
                     </div>
                   </div>
@@ -109,8 +108,8 @@ const Creative = () => (
                     <div className="p-3 pb-md-5">
                       <h3 className="texts">Content Writing </h3>
                       <p className="texts service-links">
-                        Redefining digital marketing with the influencers that
-                        help your brand grow.
+                        Writing Is What Makes a Big Difference, And Here We Are
+                        To Make A Difference.
                       </p>
                     </div>
                   </div>
@@ -126,30 +125,39 @@ const Creative = () => (
                 </div>
                 <div className="col-12 col-md-8">
                   <Row>
-                    <Col xs={3} className="p-2 p-md-3">
+                    <Col xs={6} md={3} className="p-2 p-md-3">
                       <img
                         src="/images/logo-1.png"
                         alt="brand"
                         className="rounded img-fluid"
                       />
                     </Col>
-                    <Col xs={3} className="p-2 p-md-3">
+                    <Col xs={6} md={3} className="p-2 p-md-3">
                       <img
                         src="/images/logo-2.png"
                         alt="brand"
                         className="rounded img-fluid"
                       />
                     </Col>
-                    <Col xs={3} className="p-2 p-md-3">
+                    <Col xs={6} md={3} className="p-2 p-md-3">
                       <img
                         src="/images/logo-3.png"
                         alt="brand"
                         className="rounded img-fluid"
                       />
                     </Col>
-                    <Col xs={3} className="p-2 p-md-3">
+                    <Col xs={6} md={3} className="p-2 p-md-3">
                       <img
                         src="/images/logo-4.png"
+                        alt="brand"
+                        className="rounded img-fluid"
+                      />
+                    </Col>
+                  </Row>
+                  <Row>
+                    <Col xs={6} md={3} className="p-2 p-md-3">
+                      <img
+                        src="/images/logo-5.png"
                         alt="brand"
                         className="rounded img-fluid"
                       />

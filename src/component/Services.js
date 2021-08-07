@@ -6,69 +6,69 @@ export default function Services() {
     <div className="container-fluid services">
       <div className="row p-5">
         <div className="col-12 col-md-2 pt-5">
-          <h1 className="text-left texts">Our Work:</h1>
+          <h1 className="text-left">Our Work:</h1>
         </div>
         <div className="col-12 col-md-10 pt-5">
           <div className="row">
             <div className="col-12 col-md-4 d-flex justify-content-center p-2">
-              <a href="#">
+              <a href="https://www.behance.net/gallery/124282759/Branding" target="_blank">
                 <div
-                  className="card-box p-3"
-                  style={{ width: "18rem", backgroundColor: "black" }}
+                  className="card-box p-2"
+                  style={{ width: "18rem", backgroundColor: "lightgrey" }}
                 >
-                  <img className="img-fluid" src="images/bg.jpg"></img>
+                  <img className="img-fluid" src="images/BrandDesign.png"></img>
                 </div>
               </a>
             </div>
             <div className="col-12 col-md-4 d-flex justify-content-center p-2">
-              <a href="#">
+              <a href="https://www.behance.net/gallery/124282835/Social-Media-Management" target="_blank">
                 <div
-                  className="card-box p-3"
-                  style={{ width: "18rem", backgroundColor: "black" }}
+                  className="card-box p-2"
+                  style={{ width: "18rem", backgroundColor: "lightgrey" }}
                 >
-                  <img className="img-fluid" src="images/bg.jpg"></img>
+                  <img className="img-fluid" src="images/SMM.png"></img>
                 </div>
               </a>
             </div>
             <div className="col-12 col-md-4 d-flex justify-content-center p-2">
-              <a href="#">
+              <a href="https://www.behance.net/gallery/124282857/Video-Editing-Graphic-Designing" target="_blank">
                 <div
-                  className="card-box p-3"
-                  style={{ width: "18rem", backgroundColor: "black" }}
+                  className="card-box p-2"
+                  style={{ width: "18rem", backgroundColor: "lightgrey" }}
                 >
-                  <img className="img-fluid" src="images/bg.jpg"></img>
+                  <img className="img-fluid" src="images/Video.png"></img>
                 </div>
               </a>
             </div>
           </div>
           <div className="row">
             <div className="col-12 col-md-4 d-flex justify-content-center p-2">
-              <a href="#">
+              <a href="https://www.behance.net/gallery/124282899/Website-Development" target="_blank">
                 <div
-                  className="card-box p-3"
-                  style={{ width: "18rem", backgroundColor: "black" }}
+                  className="card-box p-2"
+                  style={{ width: "18rem", backgroundColor: "lightgrey" }}
                 >
-                  <img className="img-fluid" src="images/bg.jpg"></img>
+                  <img className="img-fluid" src="images/Web.png"></img>
                 </div>
               </a>
             </div>
             <div className="col-12 col-md-4 d-flex justify-content-center p-2">
-              <a href="#">
+              <a href="https://www.behance.net/gallery/124282791/Content-Writing" target="_blank">
                 <div
-                  className="card-box p-3"
-                  style={{ width: "18rem", backgroundColor: "black" }}
+                  className="card-box p-2"
+                  style={{ width: "18rem", backgroundColor: "lightgrey" }}
                 >
-                  <img className="img-fluid" src="images/bg.jpg"></img>
+                  <img className="img-fluid" src="images/ContentWriting.png"></img>
                 </div>
               </a>
             </div>
             <div className="col-12 col-md-4 d-flex justify-content-center p-2">
-              <a href="#">
+              <a href="https://www.behance.net/gallery/124282811/Music-PRoduction" target="_blank">
                 <div
-                  className="card-box p-3"
-                  style={{ width: "18rem", backgroundColor: "black" }}
+                  className="card-box p-2"
+                  style={{ width: "18rem", backgroundColor: "lightgrey" }}
                 >
-                  <img className="img-fluid" src="images/bg.jpg"></img>
+                  <img className="img-fluid" src="images/MusicProd.png"></img>
                 </div>
               </a>
             </div>
@@ -91,7 +91,7 @@ export default function Services() {
       </div>
       <div className="row">
           <div className="col p-4">
-              <div className="card-box p-2" style={{backgroundColor: "white"}}>
+              <div className="card-box p-3" style={{backgroundColor: "white"}}>
                   <h4>Graphic Designing</h4>
                   <ul className="text-left">
                       <li>Visual Identity Graphic Design</li>
@@ -106,7 +106,7 @@ export default function Services() {
               </div>
           </div>
           <div className="col p-4">
-              <div className="card-box p-2" style={{backgroundColor: "white"}}>
+              <div className="card-box p-3" style={{backgroundColor: "white"}}>
                   <h4>Video Editing</h4>
                   <ul className="text-left">
                       <li>Linear Editing</li>
@@ -121,7 +121,7 @@ export default function Services() {
               </div>
           </div>
           <div className="col p-4">
-              <div className="card-box p-2" style={{backgroundColor: "white"}}>
+              <div className="card-box p-3" style={{backgroundColor: "white"}}>
                   <h4>Content Writing</h4>
                   <ul className="text-left">
                       <li>SEO Content Writing</li>

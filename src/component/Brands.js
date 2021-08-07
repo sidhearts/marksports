@@ -107,6 +107,16 @@ export default function Brands() {
                 />
               </Col>
             </Row>
+            <Row>
+              <Col xs={6} md={3} className="p-2 p-md-3">
+                <img
+                  data-aos="zoom-in"
+                  src="/images/logo-5.png"
+                  alt="brand"
+                  className="rounded img-fluid"
+                />
+              </Col>
+            </Row>
           </Container>
         </div>
       </div>
